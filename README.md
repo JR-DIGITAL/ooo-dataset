@@ -1,4 +1,4 @@
-# OoO-dataset
+# OoO-Dataset
 *A dataset for evaluating out-of-order event compensation algorithms.*
 
 These are synthetically generated datasets using standard commercial devices, networks, and protocols commonly used in Internet of Things applications aiming to resemble real world use cases. Several sessions were carried out to cover the influence of different parameters of payload and network types.
