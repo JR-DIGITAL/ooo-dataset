@@ -1,0 +1,62 @@
+/--- D Transmit ---/
+Events: 29915
+Q1: 12.25
+Q3: 27.0
+Median: 18.25
+Max: 3461.0
+Min: -14.0
+Avg: 48.60621761657493
+
+/--- D Receive ---/
+Events: 29915
+Q1: 2.75
+Q3: 17.0
+Median: 10.0
+Max: 1563.0
+Min: -647.0
+Avg: -5.324720040104957
+
+/--- Round Trip ---/
+Events: 29915
+Q1: 23.0
+Q3: 40.0
+Median: 32.0
+Max: 3378.0
+Min: 0.0
+Avg: 46.00247367541406
+
+/--- Out of order events ---/
+OoO by Sequence: 127 of 29915 events (0.42 %)
+OoO by detection time: 7878 of 29915 events (26.33 %)
+
+/--- Missing Events ---/
+Missing events: 80
+
+/--- Server Log ---/
+Server log events: 29917
+Device: dev_3, 	events: 3000
+Device: dev_4, 	events: 3000
+Device: dev_9, 	events: 2974
+Device: dev_7, 	events: 3000
+Device: dev_10, 	events: 2974
+Device: dev_1, 	events: 2992
+Device: dev_5, 	events: 2995
+Device: dev_8, 	events: 2995
+Device: dev_6, 	events: 2994
+Device: dev_2, 	events: 2993
+
+/--- Client Logs ---/
+Device: dev_3, 	events: 3000
+Device: dev_9, 	events: 2973
+Device: dev_7, 	events: 3000
+Device: dev_10, 	events: 2974
+Device: dev_1, 	events: 2991
+Device: dev_4, 	events: 3000
+Device: dev_5, 	events: 2995
+Device: dev_8, 	events: 2995
+Device: dev_6, 	events: 2994
+Device: dev_2, 	events: 2993
+
+/--- Client Logs Check ---/
+could not find entry: dev_9-936-1407239855188
+could not find entry: dev_1-975-1407239864104

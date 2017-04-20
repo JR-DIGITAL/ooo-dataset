@@ -1,0 +1,57 @@
+/--- D Transmit ---/
+Events: 9600
+Q1: 81.0
+Q3: 130.0
+Median: 103.0
+Max: 4671.0
+Min: 20.0
+Avg: 119.96354166666667
+
+/--- D Receive ---/
+Events: 9600
+Q1: 40.25
+Q3: 68.0
+Median: 59.0
+Max: 266.0
+Min: 22.0
+Avg: 56.36062500000013
+
+/--- Round Trip ---/
+Events: 9600
+Q1: 135.0
+Q3: 187.0
+Median: 159.0
+Max: 4736.0
+Min: 53.0
+Avg: 177.18656250000052
+
+/--- Out of order events ---/
+OoO by Sequence: 18 of 9600 events (0.19 %)
+OoO by detection time: 1544 of 9600 events (16.08 %)
+
+/--- Missing Events ---/
+Missing events: 0
+
+/--- Server Log ---/
+Server log events: 15602
+Device: dev_12, 	events: 1200
+Device: dev_13, 	events: 1200
+Device: dev_7, 	events: 1200
+Device: dev_10, 	events: 1200
+Device: dev_14, 	events: 1201
+Device: dev_15, 	events: 1200
+Device: dev_5, 	events: 1200
+Device: dev_2, 	events: 1200
+
+/--- Client Logs ---/
+Device: dev_12, 	events: 1200
+Device: dev_13, 	events: 1200
+Device: dev_7, 	events: 1200
+Device: dev_10, 	events: 1200
+Device: dev_14, 	events: 1200
+Device: dev_15, 	events: 1200
+Device: dev_5, 	events: 1200
+Device: dev_2, 	events: 1200
+
+/--- Client Logs Check ---/
+could not find entry: dev_14-1200-1415624625615
