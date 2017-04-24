@@ -36,6 +36,7 @@ The datasets were designed to resemble the behavior and architecture of an Inter
 - A-Time-to-previous-Server-Client-sequence-receive-time (server-receive time difference to the previous event based on the sequence ID of this client)
 
 Further details of the dataset can be found in:
+
 Wolfgang Weiss, Víctor Juan Expósito Jiménez and Herwig Zeiner. A Dataset and a Comparison of Out-of-Order Event Compensation Algorithms. In Proceedings of the 2nd International Conference on Internet of Things, Big Data and Security (IoTBDS 2017), pages 36-46, 2017, ISBN: 978-989-758-245-5
 
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)](http://creativecommons.org/licenses/by-sa/4.0/).
