@@ -87,7 +87,9 @@ Client ID | Dataset Client ID | Device Type | OS | Version | Architecture | Core
 
 
 The analysis of the recorded datasets describing the number of out-of-order events and a summary of the processing times:
+
 ID | Clients | Network | ooo Events | ooo Percentage | fpt Min | fpt Q1 | fpt Median | fpt Mean | fpt Q3 | fpt Max | fpt Std Dev |
+--- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- | --- |
 D-1 | 	8 | 	UMTS | 	1544 | 16.08\% | 59 | 	139 | 	162 | 	181.1 | 190 | 4738 | 103.9  |
 D-2 | 9 | UMTS | 3666 | 33.94\% | 81 | 	137 | 167 | 185.8 | 205 | 3680 | 115.6  |
 D-3 | 8 | UMTS | 3277 | 34.14\% | 74 | 	132 | 157 | 182.7 | 187 | 5616 | 183.8  |
