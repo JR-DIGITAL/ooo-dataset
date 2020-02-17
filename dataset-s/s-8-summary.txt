@@ -1,0 +1,37 @@
+Events:              30000 
+out-of-order events: 5908 (19.69%)
+
+Transmission time (srect - dt) (ms): 
+min:    -15 
+1st Q:  15 
+median: 24 
+mean:   28.77593 
+3st Q:  33 
+max:    743 
+sd:     32.8153 
+rms:    43.64473 
+p 0.95: 61 
+p 0.98: 92 
+
+
+Round Trip Time (ms): 
+min:    14 
+1st Q:  23 
+median: 32 
+mean:   43.21137 
+3st Q:  41 
+max:    870 
+sd:     45.79103 
+rms:    62.96008 
+
+
+Full Processing Time (ms): 
+min:    15 
+1st Q:  27 
+median: 37 
+mean:   48.42487 
+3st Q:  50 
+max:    872 
+sd:     47.1055 
+rms:    67.55606 
+
