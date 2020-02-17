@@ -38,7 +38,32 @@ The datasets were designed to resemble the behavior and architecture of an Inter
 Both datasets use the same parameters but the only difference between them is the type of simulation network. In this case, the dataset 1 uses our company WLAN and the simulation in the dataset 2 uses a UMTS network.
 
 An overview of the recorded datasets describing the number of clients, used network, the payload, and the resulting data rates:
-![Screenshot](https://cloud.githubusercontent.com/assets/26060264/25328159/2011537e-28d7-11e7-9005-45d988ac143d.png)
+
+ID | Clients | Network | Interval (ms)	| Net Payload (Bytes) | Gross Payload (Bytes) | Events | Server KiB/sec | Clients KiB/sec |
+--- | --- | --- | --- | --- | --- | --- | --- | --- |
+D-1 | 8 | 	UMTS | 500 | 	0 | 		265 | 	9600 | 	4.14 | 	0.52 |
+D-2 | 9 | UMTS | 500	 | 512 | 1409 | 10800 | 24.77 | 2.75 |
+D-3 | 8 | UMTS | 500 | 1024 | 1365 | 9600 | 21.33 | 2.67 |
+D-4 | 7 | UMTS | 500 | 2048 | 2426 | 8400 | 33.17 | 4.74 |
+D-5 | 7 | UMTS | 500 | 10240 | 10929 | 8400 | 149.42 | 21.35 |
+S-7 | 10 | WLAN | 200 | 512 | 1409 | 30000 | 68.80 | 6.88 |
+S-8 | 10 | WLAN | 200 | 1024 | 1365 | 30000 | 66.65 | 6.67 |
+S-9 | 10 | WLAN | 200 | 2048 | 2426 | 29915 | 118.13 | 11.85 |
+S-10 | 10 | WLAN | 200 | 10240 | 10929 | 29999 | 533.64 | 53.36 |
+G-1 | 10 | Simulated | 200 | 0 | 265 | 30000 | 12.94 | 1.29 |
+G-2 | 10 | Simulated | 200 | 0 | 265 | 30000 | 12.94 | 1.29 |
+G-3 | 10 | Simulated | 200 | 0 | 265 | 30000 | 12.94 | 1.29 |
+G-4 | 10 | Simulated | 200 | 0 | 265 | 30000 | 12.94 | 1.29 |
+G-5 | 10 | Simulated | 200 | 0 | 265 | 30000 | 12.94 | 1.29 |
+G-6 | 10 | Simulated | 200 | 0 | 265 | 30000 | 12.94 | 1.29 |
+G-7 | 10 | Simulated | 200 | 0 | 265 | 30000 | 12.94 | 1.29 |
+G-8 | 10 | Simulated | 200 | 0 | 265 | 30000 | 12.94 | 1.29 |
+G-9 | 10 | Simulated | 10000 - 100 | 0 | 	265 | 	30057 | 	0.26 - 25.88 | 	0.026 - 2.59 |
+G-10 | 10 | Simulated | 10000 - 100 | 0 | 	265 | 	30058 | 	0.26 - 25.88 | 	0.026 - 2.59 |
+G-11 | 10 | Simulated | 100 - 10000 | 0 | 	265 | 	29502 | 	25.88 - 0.26 | 	2.59 - 0.026 |
+G-12 | 10 | Simulated | 100 - 10000 | 0 | 	265 | 	29503 | 	25.88 - 0.26 | 	2.59 - 0.026 |
+
+
 
 Client ID | Dataset Client ID | Device Type | OS | Version | Architecture | Cores |
 --- | --- | --- | --- | --- | --- | --- |
