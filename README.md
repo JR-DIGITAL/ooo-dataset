@@ -61,6 +61,14 @@ To get a better understanding of the paper, some dataset labels were changed. In
 - S-Last-Clock-Synch-Time --> Time of the last time synchronization
 - C-NTP-offset --> Synchronization time offset (ms)
 
+
+Example how to read the data files with R:
+```
+sampleData <- read.csv2(file="sample.csv", header=TRUE, sep=";", dec=".")
+rowClasses <- sapply(sampleData, class)
+data <- read.csv2(file="dataset-d/d-1.csv", header=TRUE, sep=";", dec=".", colClasses=rowClasses)
+```
+
 This work is licensed under a [Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)](http://creativecommons.org/licenses/by-sa/4.0/).
 
 ![Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)](https://i.creativecommons.org/l/by-sa/4.0/88x31.png "Creative Commons Attribution-ShareAlike 4.0 International License (CC-BY-SA)")
