@@ -40,6 +40,27 @@ Both datasets use the same parameters but the only difference between them is th
 An overview of the recorded datasets describing the number of clients, used network, the payload, and the resulting data rates:
 ![Screenshot](https://cloud.githubusercontent.com/assets/26060264/25328159/2011537e-28d7-11e7-9005-45d988ac143d.png)
 
+Client ID | Dataset Client ID | Device Type | OS | Version | Architecture | Cores |
+--- | --- | --- | --- | --- | --- | --- |
+1 |	dev\_1 |	Huawei MediaPad 7 Zoll |	Android |	4.0.3 SDK:15 |	armv7l |	2 |
+2 |	dev\_2 |	Nexus S |	Android |	4.1.2 SDK:16 |	armv7l |	1 |
+3 |	dev\_3 |	PC Client |	Windows |	7 |	amd64 |	4 |
+4 |	dev\_4 |	PC Client |	Windows |	7 |	x86 |	2 |
+5 |	dev\_5 |	Motorola |	Android |	4.1.2 SDK:16 |	i686 |	2 |
+6 |	dev\_6 |	Nexus 7 Tablet |	Android |	4.4.4 SDK:19 |	armv7l |	4 |
+7 |	dev\_7 |	Galaxy Nexus |	Android |	4.3 SDK:18 |	armv7l |	2 |
+8 |	dev\_8 |	Moto X |	Android |	4.4.2 SDK:19 |	armv7l |	2 |
+9 |	dev\_9 |	Samsung Galaxy Tab 2 |	Android |	4.2.2 SDK:17 |	armv7l |	2 |
+10 |	dev\_10 |	Samsung Galaxy Tab |	Android |	4.0.4 SDK:15 |	armv7l |	2 |
+11 |	dev\_11 |	Galaxy Nexus |	Android |	4.4.4 SDK:19 |	armv7l |	2 |
+12 |	dev\_12 |	LG-D802 |	Android |	4.4.2 SDK:19 |	armv7l |	4 |
+13 |	dev\_13 |	Nexus 5 |	Android |	4.4.4 SDK:19 |	armv7l |	4 |
+14 |	dev\_14 |	Samsung, GT-I9300 |	Android |	4.3 SDK:18 |	armv7l |	4 |
+15 |	dev\_15 |	Galaxy Nexus |	Android |	4.4.4 SDK:19 |	armv7l |	2 |
+16 |	dev\_16 |	Samsung, GT-I8190 |	Android |	4.1.2 SDK:16 |	armv7l |	2 |
+17 |	dev\_17 |	PC Client |	Windows |	7 |	amd64 |	8 |
+
+
 The analysis of the recorded datasets describing the number of out-of-order events and a summary of the processing times:
 ![Screenshot](https://cloud.githubusercontent.com/assets/26060264/25328163/24303e48-28d7-11e7-8232-b278b348d6d9.png)
 
